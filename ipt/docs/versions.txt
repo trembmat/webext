@@ -1,0 +1,154 @@
+Coder: Mathieu Tremblay
+Created on: 2013-06-21
+Last update: 2014-04-15
+Current version: 1.1.12
+
+Modification history
+-----------------------------------------------------
+2014-04-16  1.2.0   Major bug in DB structure
+  
+                    -ipt/dbobject.php has been modified
+
+-----------------------------------------------------
+
+2014-04-15  1.1.2   Adding Image Resize, FTP and Update Functions
+  
+                    -ipt/imagesize.php has been created
+                    -ipt/update.php has been created
+                    -ipt/ftp.php has been created
+                    
+                    
+2014-02-17  1.1.1   Completing MagicScreen object
+  
+                    -ipt/magicscreen.php has been modified
+                    -ipt/dbquery.php     has been modified
+
+2014-02-13  1.1.0   Simplifying application developpement with new classes
+
+                    -ipt/magicscreen.php  has been created
+                    -ipt/widget.php       has been modified
+
+-----------------------------------------------------
+
+2013-09-23  1.0.11  Adding a tool to get current ipt version....  
+
+                    -ipt/tools/ has been created
+                    -ipt/tools/index.php has been created
+                    -ipt/tools/version.php has been created
+
+2013-09-22  1.0.10  You can now create full connected screens with MySQL in no time
+
+                    -ipt/dbobject.php has been created
+                    -ipt/screen.php has been created
+                    
+2013-09-21  1.0.9   Missing file for some templates
+
+                    -ipt/templates/widgets/js/jquery.min.1.8.2.js  has been created
+                  
+2013-09-09  1.0.8   Explaining how to use the basics
+
+                    -ipt/docs/index.php has been modified
+                    -ipt/docs/basic.php has been created
+                    -ipt/templates/html/* 1 template example added
+
+2013-09-05  1.0.7   Building some templates to help creating basic applications
+
+                    -ipt/templates/html has been created
+                    -ipt/templates/html/* 24 templates examples added                   
+                    -ipt/templates/html/css has been created
+                    -ipt/templates/html/css/forms.css has been created                    
+                    
+2013-08-31  1.0.6   Minor changes
+
+                    -ipt/widget.php has been modified
+
+2013-08-28  1.0.5   Minor changes
+
+                    -ipt/userauthentification.php has been modified
+                    
+2013-07-03  1.0.4   Building some login features
+
+                    -ipt/dbquery.php has been modified
+                    -ipt/dbupdate.php has been modified                       
+
+                    -ipt/examples/dbupdate.php has been created
+                    -ipt/examples/dbupdate_2.php has been created  
+                    -ipt/examples/index.php has been modified                       
+
+                    -ipt/templates/widgets has been created
+                    -ipt/templates/widgets/login_slider.php has been created
+                    -ipt/templates/widgets/slider.php has been created
+                    -ipt/templates/widgets/js has been created
+                    -ipt/templates/widgets/js * 9 javascript files added
+                                        
+2013-07-02  1.0.3  Creating HTML + CSS forms with MySQL database interaction
+
+                    -ipt/_vars.php has been modified
+                    -ipt/index.php has been modified
+                    
+                    -ipt/dbfield.php has been created
+                    -ipt/userauthentification.php has been created
+
+                    -ipt/templates/ has been created
+
+                    -ipt/docs/ has been created
+                    -ipt/docs/index.php has been created  
+                    -ipt/docs/classes.php has been created
+                    
+                    -ipt/examples/dbquery.php has been created  
+                    -ipt/examples/login.php has been created
+                    -ipt/examples/index.php has been modified                       
+                    
+                    -ipt/version.txt moved to ipt/docs/versions.txt
+                    
+                    
+2013-06-27  1.0.2  Querying the database and making data insertion 
+
+                    -ipt/version.txt has been modified
+
+                    -ipt/email.php has been created
+                    -ipt/encode.php has been created
+
+                    -ipt/dbquery.php has been modified                    
+
+2013-06-26  1.0.1  Making the db classes working together
+                    
+                    -ipt/readme.txt has been modified
+                    -ipt/version.txt has been created
+                    
+                    -ipt/_vars.php has been modified
+                    -ipt/_debug.php has been created
+                    
+                    -ipt/index.php has been created
+                    -ipt/errorhandler.php has been created
+                    
+                    -ipt/dbtable.php has been created
+                    -ipt/dbfield.php has been created
+                    -ipt/dblink.php has been created
+                    -ipt/db.php has been created
+
+                    -ipt/exemples/index.php code source library has been created
+                    -ipt/exemples/* 3 code examples added
+                    
+                    -ipt/tmp/index.php Default temporary dump folder
+                    
+                    -ipt/dbstructure.php has been removed
+                    -ipt/dbtoolbox.php has been removed
+                   
+2013-06-21  1.0.0  Startup of the project
+
+                    -ipt/_vars.php has been created
+                    
+                    -ipt/dbquery.php has been created
+                    -ipt/dbupdate.php has been created
+                    -ipt/dbtoolbox.php has been created
+
+                    -ipt/login.php has been created
+
+                    -ipt/readme.txt has been created
+
+-----------------------------------------------------
+
+
+
+

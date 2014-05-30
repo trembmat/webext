@@ -1,0 +1,100 @@
+<script src="ipt/templates/widgets/js/ipt.time.js"></script>
+
+
+<!--row-->
+<link rel="stylesheet" type="text/css" media="screen" href="ipt/templates/html/css/forms.css">
+<form id="form1" method="post"  style="display:block;">
+
+<p style="font-size:14px;">
+
+<input type="hidden" name="id" value="<!--col-->{id}<!--/col-->">
+
+
+<label>Projet: <input type="hidden" id="kgpj_projet" name="kgpj_projet" value="<!--col-->{kgpj_projet}<!--/col-->">
+[--combo_projet--]
+</label>
+
+
+
+
+
+
+
+<label>Activité: <input type="hidden" id="kgpr_activites" name="kgpr_activites" value="<!--col-->{kgpr_activites}<!--/col-->">
+[--combo_activites--]
+</label>
+
+
+<div style="clear:both;padding-bottom:10px;"></div>
+
+<label style="visibility:hidden;">Date: <input type="text" name="dinscrit" value="<!--col-->{dinscrit}<!--/col-->"></label>
+<label>Début: 
+
+<input type="button"  onclick="SetHr(1)" style="width:40px;" class="sendButton" value=">">
+<div id="hrdeb_c" style="float:right; border:1px solid black; height:20px;width:60px; text-align:center;" onclick="ShowTimePicker(document.getElementById('hrdeb'),document.getElementById('hrdeb_c'),'Heure de début')"><!--col-->{hrdeb}<!--/col--></div>
+<input type="text" name="hrdeb" id="hrdeb" value="<!--col-->{hrdeb}<!--/col-->" style="display:none;"></label>
+
+
+
+<label>Fin: 
+<input type="button" onclick="SetHr(2)" style="width:40px;" class="sendButton" value=">">
+<div id="hrfin_c" style="float:right; border:1px solid black; height:20px; width:60px; text-align:center;" onclick="ShowTimePicker(document.getElementById('hrfin'),document.getElementById('hrfin_c'),'Heure de fin')"><!--col-->{hrfin}<!--/col--></div>
+<input type="text" name="hrfin" id="hrfin"  value="<!--col-->{hrfin}<!--/col-->" style="display:none;"></label>
+<div style="clear:both;padding-bottom:10px;"></div>
+<label style="visibility:hidden;">Nb.Hre: <input type="text" name="nbhre" value="<!--col-->{nbhre}<!--/col-->"></label>
+
+
+<div style="clear:both;padding-bottom:10px;"></div>
+
+
+
+
+<label style="visibility:hidden;">Utilisateur: <input type="hidden" id="kgco_utilisateur" name="kgco_utilisateur" value="<!--col-->{kgco_utilisateur}<!--/col-->">
+[--combo_utilisateur--]
+</label>
+   
+    
+    
+<div style="clear:both;padding-bottom:10px;"></div>
+
+<input type="submit" class="sendButton" value="Enregistrer">
+</p>    
+
+
+              
+</form>
+<!--/row-->              
+
+<script>
+
+
+
+function SetHr(type) {
+     var todayDate=new Date();
+
+var hours=todayDate.getHours();
+var minutes=todayDate.getMinutes();
+
+
+if (hours   < 10) { hours = '0'+hours; }  
+if (minutes < 10){
+    minutes = '0' + minutes;
+}
+
+
+   if(type==1) {
+      document.getElementById('hrdeb').value= hours+':'+minutes;
+      document.getElementById('hrdeb_c').innerHTML= hours+':'+minutes;
+     
+   } else {
+      document.getElementById('hrfin').value= hours+':'+minutes;
+      document.getElementById('hrfin_c').innerHTML= hours+':'+minutes;
+      
+    }
+}
+
+
+
+
+
+</script>
